@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Main.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">FactoryPattern</a> &gt; <a href="index.source.html" class="el_package">com.soj.designpattern.factory</a> &gt; <span class="el_source">Main.java</span></div><h1>Main.java</h1><pre class="source lang-java linenums">package com.soj.designpattern.factory;
+
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.graalvm.compiler.nodes.calc.IntegerDivRemNode;
+
+<span class="nc" id="L8">public class Main {</span>
+<span class="nc" id="L9">    static final Logger logger = LogManager.getLogger(Main.class.getName());</span>
+
+    public static void main(String[] args) {
+
+
+<span class="nc" id="L14">        Calculation calculation = new Calculation();</span>
+<span class="nc" id="L15">        Operator add = calculation.getCalculation(&quot;add&quot;);</span>
+<span class="nc" id="L16">        double result1 = add.calculate(3, 5);</span>
+<span class="nc" id="L17">        logger.info(&quot;Calculation for addition&quot;);</span>
+<span class="nc" id="L18">        logger.log(Level.DEBUG, &quot;The result for addition is {}&quot;, result1);</span>
+
+<span class="nc" id="L20">        logger.info(&quot;...............................................................&quot;);</span>
+
+<span class="nc" id="L22">        Operator subtract = calculation.getCalculation(&quot;subtract&quot;);</span>
+<span class="nc" id="L23">        double result2 = subtract.calculate(9.4, 3.2);</span>
+<span class="nc" id="L24">        logger.info(&quot;Calculation for subtraction&quot;);</span>
+<span class="nc" id="L25">        logger.log(Level.DEBUG, &quot;The result for subtraction value is {}&quot;, result2);</span>
+
+
+<span class="nc" id="L28">        logger.info(&quot;/~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/&quot;);</span>
+
+<span class="nc" id="L30">        Operator multiply = calculation.getCalculation(&quot;multiply&quot;);</span>
+<span class="nc" id="L31">        double result3 = multiply.calculate(9.2, 9);</span>
+<span class="nc" id="L32">        logger.info(&quot;Calculation for multiply&quot;);</span>
+<span class="nc" id="L33">        logger.log(Level.DEBUG, &quot;The result for multiplication is {}&quot;, result3);</span>
+
+
+<span class="nc" id="L36">        logger.info(&quot;/............................................................../&quot;);</span>
+
+<span class="nc" id="L38">        Operator divide = calculation.getCalculation(&quot;divide&quot;);</span>
+<span class="nc" id="L39">        double result4 = divide.calculate(9.18, 9);</span>
+<span class="nc" id="L40">        logger.info(&quot;Calculation for division&quot;);</span>
+<span class="nc" id="L41">        logger.log(Level.DEBUG, &quot;The result for division is {}&quot;, result4);</span>
+
+
+<span class="nc" id="L44">    }</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>
