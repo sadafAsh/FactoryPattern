@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.soj.designpattern.factory.MultiplicationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-07T12:00:52" hostname="DESKTOP-H3C67DB" time="0.001">
+  <properties/>
+  <testcase name="calculate()" classname="com.soj.designpattern.factory.MultiplicationTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

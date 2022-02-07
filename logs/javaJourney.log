@@ -1,11 +1,11 @@
- INFO [main] 2022-02-06T20:55:25,471  (line ) Calculation for addition
-DEBUG [main] 2022-02-06T20:55:25,475  (line ) The result for addition is 8.0
- INFO [main] 2022-02-06T20:55:25,475  (line ) ...............................................................
- INFO [main] 2022-02-06T20:55:25,476  (line ) Calculation for subtraction
-DEBUG [main] 2022-02-06T20:55:25,476  (line ) The result for subtraction value is 6.2
- INFO [main] 2022-02-06T20:55:25,476  (line ) /~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/
- INFO [main] 2022-02-06T20:55:25,476  (line ) Calculation for multiply
-DEBUG [main] 2022-02-06T20:55:25,476  (line ) The result for multiplication is 82.8
- INFO [main] 2022-02-06T20:55:25,476  (line ) /............................................................../
- INFO [main] 2022-02-06T20:55:25,476  (line ) Calculation for division
-DEBUG [main] 2022-02-06T20:55:25,476  (line ) The result for division is 1.02
+ INFO [main] 2022-02-07T11:42:41,250  (line ) Calculation for addition
+DEBUG [main] 2022-02-07T11:42:41,254  (line ) The result for addition is 8.0
+ INFO [main] 2022-02-07T11:42:41,254  (line ) ...............................................................
+ INFO [main] 2022-02-07T11:42:41,255  (line ) Calculation for subtraction
+DEBUG [main] 2022-02-07T11:42:41,255  (line ) The result for subtraction value is 6.2
+ INFO [main] 2022-02-07T11:42:41,255  (line ) /~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/
+ INFO [main] 2022-02-07T11:42:41,255  (line ) Calculation for multiply
+DEBUG [main] 2022-02-07T11:42:41,255  (line ) The result for multiplication is 82.8
+ INFO [main] 2022-02-07T11:42:41,255  (line ) /............................................................../
+ INFO [main] 2022-02-07T11:42:41,255  (line ) Calculation for division
+DEBUG [main] 2022-02-07T11:42:41,255  (line ) The result for division is 1.02
