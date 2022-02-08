@@ -2,5 +2,5 @@ projectKey=FactoryPattern
 serverUrl=http://localhost:9000
 serverVersion=9.2.4.50792
 dashboardUrl=http://localhost:9000/dashboard?id=FactoryPattern
-ceTaskId=AX7UWDcllsy5Th6M7sZw
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AX7UWDcllsy5Th6M7sZw
+ceTaskId=AX7UZurAlsy5Th6M7sZ0
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX7UZurAlsy5Th6M7sZ0

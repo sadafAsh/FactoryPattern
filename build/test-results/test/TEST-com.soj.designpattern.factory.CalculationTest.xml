@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.soj.designpattern.factory.CalculationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-02-07T12:00:52" hostname="DESKTOP-H3C67DB" time="0.038">
+<testsuite name="com.soj.designpattern.factory.CalculationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2022-02-07T13:26:46" hostname="DESKTOP-H3C67DB" time="0.011">
   <properties/>
-  <testcase name="testThatOperatorIsAnInstanceOfSubtractionInCalculation()" classname="com.soj.designpattern.factory.CalculationTest" time="0.026"/>
+  <testcase name="testThatOperatorIsAnInstanceOfSubtractionInCalculation()" classname="com.soj.designpattern.factory.CalculationTest" time="0.002"/>
   <testcase name="testThatOperatorIsAnInstanceOfMultiplicationInCalculation()" classname="com.soj.designpattern.factory.CalculationTest" time="0.002"/>
   <testcase name="testForGettingSubtractionCalculation()" classname="com.soj.designpattern.factory.CalculationTest" time="0.001"/>
   <testcase name="testForGettingDivisionInCalculation()" classname="com.soj.designpattern.factory.CalculationTest" time="0.001"/>
