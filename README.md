@@ -1,21 +1,26 @@
-# FactoryPatttern
-FACTORY METHOD PATTERN:
+# FactoryPattern
+
           It is define,an interface or abstract class for creating the object but let the subclass decide
 which subclass to instantiate.It is one the best method to create an object where object creational is 
 hidden from the client.It comes under creational design pattern. 
 
           In this project,interface 'Operator' has been created and 'Addition','Subtraction','Multiplication'
-'Division' are the concrete classes which implements the interface.A 'Calculation' is the factory class which
-is a next step.'Main' will only use Calculation  class to get  object of concrete classes by passing an 
-information such as(Addition/Substraction/Multiplication/Division) to Calculation to get type of object it 
+'Division' are the concrete classes which implements the interface.'Calculation' is the factory class which
+is a next step.'Main' will only use Calculation class to get  object of concrete classes by passing an 
+information (Addition/Substraction/Multiplication/Division) to Calculation to get type of object it 
 needs. 
 
 
-
-
 JunitTest:
-     There is Junit Test for all the type of factory pattern and test coverage in jacoco report is 100% 
-successful.
+   
+      The  Junit Test is done of all the entities in  "factory pattern" project and test coverage 
+is 100% successful in jacoco report.
+
+       
+  SONARQUBE :
+          In sonarqube,reliability ,security , securityReview and maintainability is A and 
+the code coverage is 100%. 
+
 
 SONARQUBE 
 
